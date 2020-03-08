@@ -8,7 +8,7 @@ function setup() {
     slider3 = createSlider(0,255);
 }
 function draw() {
-    background(0,0, slider1.value());
+    background(0,0,slider1.value());
     //text
     fill("yellow");
     textSize(32);
